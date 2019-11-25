@@ -11,17 +11,23 @@
 Before conducting MD simulations using docker, please conduct the commands bellow to get omegagene images on your computer.
 
 ```sh
-git clone ""
+git clone https://github.com/terapizawa/myPresto-omegagene.git
 ```
 then,
 
 ```sh
-cd OO
+cd myPresto-omegagene
 ```
 ```sh
 docker-compose up -d
 ```
 The container will be built and working.
+
+Get into the docker container
+
+```sh
+sudo docker exec -it og_omegagene_1 /bin/bash
+```
 
 ## 1. Input Files
 
