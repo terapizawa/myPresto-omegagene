@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  omegagene:
+    build:
+      context: .
+      dockerfile: Dockerfile_og
+    tty: true
