@@ -50,7 +50,7 @@ export OMEGATK=/omegagene/toolkit/
 ```
 change the working directory
 ```sh
-cd
+cd /omegagene/samples/cg_fus
 ```
 make a topology file
 ```
