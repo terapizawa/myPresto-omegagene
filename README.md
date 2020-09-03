@@ -82,18 +82,3 @@ you can also change restart file ( the structure at the final step) to pdb file
 
 
 DONE!!!!
-
-
-### under development (simulation with all-atom model)###
-___
-#### please execute the commands bellow to conduct MD simulations with omegagene and all-atom model
-___
-
-```sh
-python2.7 ${OMEGATK}/mdinput_generator.py -i system.cfg -o system.cls -v v.0.40.c > log_inputgen.txt
-```
-
-execute
-```sh
-/omegagene/install_here/bin/omegagene --inp et1.cls --cfg md_input.cfg > log.txt
-```
