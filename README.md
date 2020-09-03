@@ -16,7 +16,7 @@ git clone https://github.com/terapizawa/myPresto-omegagene.git
 then,
 
 ```sh
-cd myPresto-omegagene
+cd omegagene-docker
 ```
 ```sh
 docker-compose up -d
@@ -50,7 +50,7 @@ export OMEGATK=/omegagene/toolkit/
 ```
 change the working directory
 ```sh
-cd /omegagene/samples/cg_fus
+cd ../omegagene/samples/cg_q8
 ```
 make a topology file
 ```
@@ -62,12 +62,11 @@ python2.7 ${OMEGATK}/presto_generate_velocities.py   -i inp.pdb   --i-tpl md.tpl
 ```
 make a cls file (md.inp.cls)
 ```
-python2.7 ${OMEGATK}/mdinput_generator.py -i md.inp -o md.inp.cls -v v.0.40.c > log_inputgen.txt
+python2.7 ${OMEGATK}/mdinput_generator.py -i md.inp -o md.inp.cls -v v.0.52  > log_inputgen.txt
 ```
 execute omegagene
 ```sh
-/omegagene/install_here/bin/omegagene  --cfg md.inp.run --inp md.inp.cls
-> md.out
+/omegagene/install_here/bin/omegagene_wons  --cfg md.inp.run --inp md.inp.cls > md.out
 ```
 
 change the cod file to trr files
