@@ -4,7 +4,7 @@
 <br>
 1 Grad. Sch. Life sci., Ritsumeikan Univ.
 <br>
-2 Coll. Life Sci., Ritsumeikan Univ.
+
 
 ## 0. Building docker container
 
