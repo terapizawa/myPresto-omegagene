@@ -1,6 +1,6 @@
 # How to use myPresto/omegagene on Docker container
 
-**Author : Hiroki Terazawa[1], Kota Kasahara[2]**
+**Author : Hiroki Terazawa
 <br>
 1 Grad. Sch. Life sci., Ritsumeikan Univ.
 <br>
